@@ -17,9 +17,7 @@
 
 - **[Cortana Solutions](https://github.com/TrustlessMike/cortana-solutions)** - AI-powered CRM and client management platform for financial advisors ([cortanasolutions.com](https://cortanasolutions.com))
 - **[Trading Benchmark](https://github.com/TrustlessMike/trading-benchmark)** - Real-time trading performance benchmarking and analytics platform
-- **[NemoClaw](https://github.com/TrustlessMike/nemoclaw)** - Container security toolkit for AI coding agents
 - **[OpenController](https://github.com/TrustlessMike/opencontroller)** - Electron GUI shell for AI agent CLIs with a Perplexity-style interface
-- **[Money Talk with Malik](https://github.com/TrustlessMike/moneytalkwithmalik)** - Financial education and advisory content
 
 ## GitHub Activity
 

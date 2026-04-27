@@ -17,17 +17,9 @@
 
 - **[Cortana Solutions](https://github.com/TrustlessMike/cortana-solutions)** - AI-powered CRM and client management platform for financial advisors ([cortanasolutions.com](https://cortanasolutions.com))
 - **[Trading Benchmark](https://github.com/TrustlessMike/trading-benchmark)** - Real-time trading performance benchmarking and analytics platform
-- **[OpenClaw](https://github.com/TrustlessMike/openclaw)** - The AI that actually does things; agent orchestration with a bias toward shipping ([openclaw.ai](https://openclaw.ai))
 - **[NemoClaw](https://github.com/TrustlessMike/nemoclaw)** - Container security toolkit for AI coding agents
 - **[OpenController](https://github.com/TrustlessMike/opencontroller)** - Electron GUI shell for AI agent CLIs with a Perplexity-style interface
 - **[Money Talk with Malik](https://github.com/TrustlessMike/moneytalkwithmalik)** - Financial education and advisory content
-
-## Affiliate Network
-
-- **[AI Stack Kit](https://github.com/TrustlessMike/ai-stack-kit)** - AI tools comparison and reviews
-- **[HR Stack Solutions](https://github.com/TrustlessMike/hr-stack-solutions)** - HR tech comparison ([live site](https://hrtech-affiliate.vercel.app))
-- **[Biz Stack Solutions](https://github.com/TrustlessMike/biz-stack-solutions)** - Business tools comparison ([live site](https://biz-stack-mu.vercel.app))
-- **[Ecom Stack Solutions](https://github.com/TrustlessMike/ecom-stack-solutions)** - E-commerce tools comparison
 
 ## GitHub Activity
 

@@ -38,6 +38,8 @@ to Arms. Follow the repository for its current progress and supported workflows.
 
 ## More open-source projects
 
+- **[Wickett](https://github.com/TrustlessMike/Wickett)** — Global-payments prototype: send/request money, fiat on/off-ramps and Solana settlement. Recovered independently from Mimic · MIT.
+
 - **[Art of Battle](https://github.com/TrustlessMike/art-of-battle)** — First-person melee combat in a destructible compound. Browser prototype · ISC.
 - **[OpenController](https://github.com/TrustlessMike/opencontroller)** — Desktop interface for OpenClaw and Hermes. Source-build prototype · MIT.
 - **[Dispo Spinner](https://github.com/TrustlessMike/dispo-spinner)** — Customizable animated wheel component and web demo · MIT.

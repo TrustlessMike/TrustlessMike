@@ -13,11 +13,28 @@ to Arms. Follow the repository for its current progress and supported workflows.
 
 ## Jam · Stack · Kashout
 
-| [Jam](https://github.com/TrustlessMike/Jam) | [Stack](https://github.com/TrustlessMike/stack-app) | [Kashout](https://github.com/TrustlessMike/Kashout) |
-| :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/TrustlessMike/Jam/main/docs/brand/logo.png" width="200" alt="Jam logo"> | <img src="https://raw.githubusercontent.com/TrustlessMike/stack-app/main/docs/brand/logo.png" width="200" alt="Stack logo"> | <img src="https://raw.githubusercontent.com/TrustlessMike/Kashout/claude/setup-loot-box-app-lCNuG/docs/brand/logo.png" width="200" alt="Kashout logo"> |
-| Real-world asset platform | iOS crypto onboarding and portfolio discovery | SwiftUI rewards-app prototype |
-| Public showcase · application source private | Public showcase · prototype source private | Open-source prototype · MIT |
+<table>
+<tr>
+<th width="33%"><a href="https://github.com/TrustlessMike/Jam">Jam</a></th>
+<th width="33%"><a href="https://github.com/TrustlessMike/stack-app">Stack</a></th>
+<th width="33%"><a href="https://github.com/TrustlessMike/Kashout">Kashout</a></th>
+</tr>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Jam/main/docs/brand/logo.png" width="100%" alt="Jam logo"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/stack-app/main/docs/brand/logo.png" width="100%" alt="Stack logo"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Kashout/claude/setup-loot-box-app-lCNuG/docs/brand/logo.png" width="100%" alt="Kashout logo"></td>
+</tr>
+<tr>
+<td align="center">Real-world asset platform</td>
+<td align="center">iOS crypto onboarding and portfolio discovery</td>
+<td align="center">SwiftUI rewards-app prototype</td>
+</tr>
+<tr>
+<td align="center">Public showcase · application source private</td>
+<td align="center">Public showcase · prototype source private</td>
+<td align="center">Open-source prototype · MIT</td>
+</tr>
+</table>
 
 ## More open-source projects
 

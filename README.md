@@ -1,54 +1,24 @@
-# Hi, I'm Malik
+# Malik · TrustlessMike
 
-**Detroit** | **Finance -> AI builder** | **Automating advisor workflows**
+I build games, AI tools and small experiments worth sharing.
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Solana](https://img.shields.io/badge/-Solana-9945FF?style=flat-square&logo=solana&logoColor=white)
-![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![AI Agents](https://img.shields.io/badge/-AI_Agents-121212?style=flat-square&logo=openai&logoColor=white)
+## Featured: Open Champions
 
-> Financial advisor who discovered AI agents and never looked back. Building the tools I wish I had during a decade in wealth management.
+**[Champions: Return to Arms](https://github.com/Open-Champions/champions-return-to-arms-re)**
 
-## Current Projects
+An ongoing reverse-engineering and preservation project for Champions: Return
+to Arms. Follow the repository for its current progress and supported workflows.
 
-- **[Cortana Solutions](https://github.com/TrustlessMike/cortana-solutions)** - AI-powered CRM and client management platform for financial advisors ([cortanasolutions.com](https://cortanasolutions.com))
-- **[Trading Benchmark](https://github.com/TrustlessMike/trading-benchmark)** - Real-time trading performance benchmarking and analytics platform
-- **[OpenController](https://github.com/TrustlessMike/opencontroller)** - Electron GUI shell for AI agent CLIs with a Perplexity-style interface
+[Explore Open Champions →](https://github.com/Open-Champions)
 
-## GitHub Activity
+## Open-source projects
 
-![GitHub Contribution Graph](https://ghchart.rshah.org/TrustlessMike)
+| Project | What it is | Status |
+| --- | --- | --- |
+| [Art of Battle](https://github.com/TrustlessMike/art-of-battle) | First-person melee combat in a destructible compound, built with Three.js | Playable browser prototype · ISC |
+| [OpenController](https://github.com/TrustlessMike/opencontroller) | Desktop interface for the OpenClaw and Hermes CLIs | Source-build prototype · MIT |
+| [Dispo Spinner](https://github.com/TrustlessMike/dispo-spinner) | A customizable animated wheel component and demo | Web prototype · MIT |
+| [Vibe Guild](https://github.com/TrustlessMike/vibe-guild) | A guild hall for games, apps and the people who make them | Community site · MIT |
 
-![Stats](https://github-readme-stats.vercel.app/api?username=TrustlessMike&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff)
-
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TrustlessMike&theme=dark&hide_border=true&bg_color=0d1117&layout=compact)
-
-## What I'm Doing
-
-- **Building AI-native finance tools** - Turning advisor workflows into software that moves faster than a spreadsheet
-- **Exploring agent safety** - Sandboxes, containers, policies, and controls for code-writing systems
-- **Shipping useful web apps** - TypeScript, Next.js, Tailwind, Postgres, and whatever gets the idea into production
-- **Learning in public** - Trying new things, ZK the world
-
-## Connect
-
-[![Twitter](https://img.shields.io/badge/-@TrustlessMike-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/TrustlessMike)
-[![LinkedIn](https://img.shields.io/badge/-Malik-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/moneytalkwithmalik)
-[![Website](https://img.shields.io/badge/-cortanasolutions.com-0F9D58?style=flat-square&logo=google-chrome&logoColor=white)](https://cortanasolutions.com)
-[![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/TrustlessMike)
-
----
-
-### Philosophy
-
-> Useful beats theoretical. I build where finance, automation, and AI agents meet, then keep sharpening until the workflow feels obvious.
-
-### Random Facts
-
-- Finance background, builder brain
-- Currently deep in AI agents, automation, and ZK-adjacent ideas
-- Prefer shipping the small sharp thing over admiring the giant vague thing
+Small contributions and clear bug reports are welcome. Each project documents
+its setup and current limitations in its own repository.

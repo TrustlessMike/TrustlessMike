@@ -20,7 +20,7 @@ to Arms. Follow the repository for its current progress and supported workflows.
 <th width="33%"><a href="https://github.com/TrustlessMike/Kashout">Kashout</a></th>
 </tr>
 <tr>
-<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Jam/main/docs/brand/logo.png" width="100%" alt="Jam logo"></td>
+<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Jam/main/docs/brand/profile-panel.png" width="100%" alt="Jam logo"></td>
 <td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/stack-app/main/docs/brand/logo.png" width="100%" alt="Stack logo"></td>
 <td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Kashout/claude/setup-loot-box-app-lCNuG/docs/brand/logo.png" width="100%" alt="Kashout logo"></td>
 </tr>

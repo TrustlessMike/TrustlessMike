@@ -110,7 +110,7 @@ function segDist(px, py, ax, ay, bx, by) {
   const dx = bx - ax, dy = by - ay, t = Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / (dx * dx + dy * dy)));
   return Math.hypot(px - ax - t * dx, py - ay - t * dy);
 }
-const M_PATH = [[-0.4, 0.36], [-0.4, -0.36], [0, 0.1], [0.4, -0.36], [0.4, 0.36]];
+const M_PATH = [[-0.44, 0.4], [-0.44, -0.4], [0, 0.14], [0.44, -0.4], [0.44, 0.4]];
 const mDist = (u, v) => Math.min(...M_PATH.slice(1).map((b, i) => segDist(u, v, ...M_PATH[i], ...b)));
 
 // Height field of a coin face in units of R: raised rim, beaded ring, embossed M.
@@ -121,8 +121,8 @@ function faceHeight(u, v) {
   const a = Math.atan2(v, u), bead = Math.abs(((a / (Math.PI * 2)) * 36 % 1 + 1) % 1 - 0.5);
   if (Math.abs(r - 0.76) < 0.028 && bead < 0.22) h = 0.7;
   const d = mDist(u, v);
-  if (d < 0.075) h = Math.max(h, 0.8);
-  else if (d < 0.105) h = Math.max(h, 0.8 * (0.105 - d) / 0.03);
+  if (d < 0.1) h = Math.max(h, 0.8);
+  else if (d < 0.135) h = Math.max(h, 0.8 * (0.135 - d) / 0.035);
   return h;
 }
 
@@ -164,7 +164,8 @@ function coinFrames({ cols, rows, cw, ch, R, T, n }) {
       if (!n0) return null;
       let l = light(rot.toWorld(n0), n0.edge ? 20 : 60);
       if (n0.edge) l *= 0.85;
-      else if (n0.flat === 0) l *= 0.68; // the field sits a touch lower than the relief
+      else if (n0.flat === 0) l *= 0.45; // the field sits in shadow so the relief reads
+      else if (n0.flat >= 0.8 && n0.flat < 1) l = Math.min(1, l * 1.45 + 0.12); // M and beads catch the light
       return l;
     });
   });

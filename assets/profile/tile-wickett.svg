@@ -8,7 +8,7 @@
 @keyframes kb{from{transform:scale(1)}to{transform:scale(1.05)}}
 .kb{transform-origin:105.5px 53px;animation:kb 9s ease-in-out -5.2s infinite alternate}
 @keyframes sheen{0%,62%{transform:translateX(-211px) skewX(-18deg)}100%{transform:translateX(337.6px) skewX(-18deg)}}
-.sheen{animation:sheen 7s cubic-bezier(.4,0,.2,1) 2.8s infinite}
+.sheen{animation:sheen 7s cubic-bezier(.4,0,.2,1) 2.8s infinite backwards}
 @media (prefers-reduced-motion:reduce){.kb,.sheen{animation:none!important}}
 @media (prefers-reduced-motion:reduce){.sheen{opacity:0}}
 </style>

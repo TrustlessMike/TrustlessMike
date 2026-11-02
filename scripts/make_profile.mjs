@@ -231,7 +231,7 @@ function hero() {
     ['building', 'Open Champions: Return to Arms, preserved', C.text],
     ['shipped', 'Jam · Stack · Kashout · Wickett · Art of Battle', C.text],
     ['stack', 'Swift · TypeScript · Solana · three.js · Python', C.text],
-    ['find me', 'malikontech.com · x.com/malikontech · @MalikonTech', C.blue],
+    ['find me', 'malikontech.com · x.com/malikontech', C.blue],
   ];
   const stagger = (i) => `style="animation-delay:${(panelAt + 0.15 + i * 0.07).toFixed(2)}s"`;
   const right = [
@@ -312,7 +312,7 @@ function tile({ file, w, title, sub, tag, art, label, extra = '' }) {
 @keyframes kb{from{transform:scale(1)}to{transform:scale(1.05)}}
 .kb{transform-origin:${cxA}px ${cyA}px;animation:kb 9s ease-in-out ${-i * 1.3}s infinite alternate}
 @keyframes sheen{0%,62%{transform:translateX(${-w}px) skewX(-18deg)}100%{transform:translateX(${w * 1.6}px) skewX(-18deg)}}
-.sheen{animation:sheen 7s cubic-bezier(.4,0,.2,1) ${(i * 0.7).toFixed(1)}s infinite}
+.sheen{animation:sheen 7s cubic-bezier(.4,0,.2,1) ${(i * 0.7).toFixed(1)}s infinite backwards}
 ${NO_MOTION('.kb,.sheen')}
 @media (prefers-reduced-motion:reduce){.sheen{opacity:0}}
 </style>
@@ -366,7 +366,7 @@ function globeArt(aw) {
   };
 }
 
-const playBadge = `<circle cx="27" cy="82" r="12" fill="#000" fill-opacity=".55" stroke="#fff" stroke-opacity=".5"/><path d="M23.5 76.5v11l9-5.5z" fill="#fff"/>`;
+const playBadge = `<defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/></linearGradient></defs><rect x="5" y="2" width="201" height="${ART_H}" fill="url(#shade)"/><circle cx="27" cy="82" r="12" fill="#000" fill-opacity=".55" stroke="#fff" stroke-opacity=".5"/><path d="M23.5 76.5v11l9-5.5z" fill="#fff"/>`;
 
 const tiles = [
   { file: 'tile-open-champions.svg', w: 423, title: 'Open Champions', sub: 'Preserving Champions: Return to Arms', tag: 'preservation',

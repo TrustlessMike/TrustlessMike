@@ -1,49 +1,7 @@
-# Malik · TrustlessMike
+<img src="assets/profile/hero.svg" width="100%" alt="A terminal window. Typing whoami opens a panel for Malik, Detroit, with a spinning ASCII gold coin stamped M. Financial advisor turned builder of games, apps and money tools.">
 
-I build games, apps and experiments worth sharing.
+<p align="center"><a href="https://malikontech.com">malikontech.com</a> &nbsp;·&nbsp; <a href="https://x.com/malikontech">@malikontech</a> &nbsp;·&nbsp; <a href="https://www.youtube.com/@MalikonTech">YouTube</a> &nbsp;·&nbsp; <a href="https://www.tiktok.com/@malikontech">TikTok</a> &nbsp;·&nbsp; <a href="https://www.instagram.com/malikontechnology">Instagram</a></p>
 
-## Featured: Open Champions
+<p align="center"><a href="https://github.com/Open-Champions/champions-return-to-arms-re"><img src="assets/profile/tile-open-champions.svg" width="423" alt="Open Champions: reverse-engineering and preservation of Champions: Return to Arms."></a><a href="https://github.com/TrustlessMike/Jam"><img src="assets/profile/tile-jam.svg" width="423" alt="Jam: real-world asset platform. Public showcase, application source private."></a><a href="https://github.com/TrustlessMike/stack-app"><img src="assets/profile/tile-stack.svg" width="211" alt="Stack: iOS crypto onboarding and portfolio discovery. Public showcase, prototype source private."></a><a href="https://github.com/TrustlessMike/Kashout"><img src="assets/profile/tile-kashout.svg" width="211" alt="Kashout: open-source SwiftUI rewards-app prototype. MIT."></a><a href="https://github.com/TrustlessMike/Wickett"><img src="assets/profile/tile-wickett.svg" width="211" alt="Wickett: global-payments prototype with Solana settlement. MIT."></a><a href="https://github.com/TrustlessMike/art-of-battle"><img src="assets/profile/tile-art-of-battle.svg" width="211" alt="Art of Battle: first-person melee browser game. ISC."></a><a href="https://github.com/TrustlessMike/opencontroller"><img src="assets/profile/tile-opencontroller.svg" width="211" alt="OpenController: desktop interface for OpenClaw and Hermes. MIT."></a><a href="https://github.com/TrustlessMike/vibe-guild"><img src="assets/profile/tile-vibe-guild.svg" width="211" alt="Vibe Guild: a guild hall for games, apps and their makers. MIT."></a><a href="https://github.com/TrustlessMike/dispo-spinner"><img src="assets/profile/tile-dispo-spinner.svg" width="211" alt="Dispo Spinner: customizable animated wheel component. MIT."></a><a href="https://malikontech.com"><img src="assets/profile/tile-malikontech.svg" width="211" alt="Malik on Tech: new videos every week."></a></p>
 
-**[Champions: Return to Arms](https://github.com/Open-Champions/champions-return-to-arms-re)**
-
-An ongoing reverse-engineering and preservation project for Champions: Return
-to Arms. Follow the repository for its current progress and supported workflows.
-
-[Explore Open Champions →](https://github.com/Open-Champions)
-
-## Jam · Stack · Kashout
-
-<table>
-<tr>
-<th width="33%"><a href="https://github.com/TrustlessMike/Jam">Jam</a></th>
-<th width="33%"><a href="https://github.com/TrustlessMike/stack-app">Stack</a></th>
-<th width="33%"><a href="https://github.com/TrustlessMike/Kashout">Kashout</a></th>
-</tr>
-<tr>
-<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Jam/main/docs/brand/profile-panel.png" width="100%" alt="Jam logo"></td>
-<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/stack-app/main/docs/brand/profile-panel.png" width="100%" alt="Stack logo"></td>
-<td align="center"><img src="https://raw.githubusercontent.com/TrustlessMike/Kashout/claude/setup-loot-box-app-lCNuG/docs/brand/logo.png" width="100%" alt="Kashout logo"></td>
-</tr>
-<tr>
-<td align="center">Real-world asset platform</td>
-<td align="center">iOS crypto onboarding and portfolio discovery</td>
-<td align="center">SwiftUI rewards-app prototype</td>
-</tr>
-<tr>
-<td align="center">Public showcase · application source private</td>
-<td align="center">Public showcase · prototype source private</td>
-<td align="center">Open-source prototype · MIT</td>
-</tr>
-</table>
-
-## More open-source projects
-
-- **[Wickett](https://github.com/TrustlessMike/Wickett)** — Global-payments prototype: send/request money, fiat on/off-ramps and Solana settlement. Recovered independently from Mimic · MIT.
-
-- **[Art of Battle](https://github.com/TrustlessMike/art-of-battle)** — First-person melee combat in a destructible compound. Browser prototype · ISC.
-- **[OpenController](https://github.com/TrustlessMike/opencontroller)** — Desktop interface for OpenClaw and Hermes. Source-build prototype · MIT.
-- **[Dispo Spinner](https://github.com/TrustlessMike/dispo-spinner)** — Customizable animated wheel component and web demo · MIT.
-- **[Vibe Guild](https://github.com/TrustlessMike/vibe-guild)** — A guild hall for games, apps and their makers · MIT.
-
-Each project documents its current scope and limitations. Clear bug reports and
-focused contributions to the open-source projects are welcome.
+<p align="center"><sub>Each project documents its current scope and limitations. Clear bug reports and focused contributions are welcome.</sub></p>

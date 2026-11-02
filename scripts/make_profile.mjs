@@ -215,17 +215,17 @@ function globeFrames({ cols, rows, cw, ch, R, n }) {
 
 // ---------- hero ----------
 function hero() {
-  const W = 846, H = 400;
-  const fs = 8, cw = fs * CW, ch = 8.3, cols = 48, rows = 28;
-  const cx = 184, cy = 210;
-  const coin = coinFrames({ cols, rows, cw, ch, R: 104, T: 9, n: 48 });
+  const W = 846, H = 440;
+  const fs = 8, cw = fs * CW, ch = 8.3, cols = 58, rows = 34;
+  const cx = 193, cy = 227;
+  const coin = coinFrames({ cols, rows, cw, ch, R: 132, T: 11, n: 48 });
   const x0 = cx - (cols / 2) * cw, y0 = cy - (rows / 2) * ch + ch * 0.75;
   const flip = flipbook('c', coin, 4.8, (cells) => cellsToSvg(cells, x0, y0, cw, ch, 'g'));
   const tips = ['ship it, then explain it', 'make the money make sense', 'build something worth sharing', 'open source the boring parts'];
-  const tipFlip = flipbook('t', tips, 16, (s) => text(52, 377, `try "${s}"`, `fill="${C.dim}" font-size="11.5"`));
+  const tipFlip = flipbook('t', tips, 16, (s) => text(52, 417, `try "${s}"`, `fill="${C.dim}" font-size="11.5"`));
 
   const cmd = 'whoami', typeAt = 0.3, typeDur = 0.5, panelAt = typeAt + typeDur + 0.25;
-  const RX = 356, VX = 440;
+  const RX = 386, VX = 470;
   const rows_ = [
     ['building', 'Open Champions: Return to Arms, preserved', C.text],
     ['shipped', 'Jam · Stack · Kashout · Wickett · Art of Battle', C.text],
@@ -234,18 +234,18 @@ function hero() {
   ];
   const stagger = (i) => `style="animation-delay:${(panelAt + 0.15 + i * 0.07).toFixed(2)}s"`;
   const right = [
-    `<g class="up" ${stagger(0)}>${text(RX, 116, 'Malik', `fill="${C.text}" font-size="24" font-weight="700"`)}${text(RX + 86, 116, 'TrustlessMike', `fill="${C.dim}" font-size="13"`)}</g>`,
-    `<g class="up" ${stagger(1)}>${text(RX, 142, 'Financial advisor turned builder.', `fill="${C.text}" font-size="13.5"`)}${text(RX, 161, 'Games, apps and money tools, built in public from Detroit.', `fill="${C.dim}" font-size="11.5"`)}</g>`,
-    `<g class="up" ${stagger(2)}><line x1="${RX}" y1="180" x2="806" y2="180" stroke="${C.line}" stroke-dasharray="2 4"/></g>`,
-    ...rows_.map(([k, v, col], i) => `<g class="up" ${stagger(3 + i)}>${text(RX, 206 + i * 24, k, `fill="${C.gold}" font-size="11"`)}${text(VX, 206 + i * 24, v, `fill="${col}" font-size="11.5"`)}</g>`),
-    `<g class="up" ${stagger(8)}><circle class="pulse" cx="${RX + 4}" cy="316" r="3.5" fill="${C.green}"/>${text(RX + 16, 320, 'shipping weekly · videos every week on YouTube and TikTok', `fill="${C.dim}" font-size="11"`)}</g>`,
+    `<g class="up" ${stagger(0)}>${text(RX, 136, 'Malik', `fill="${C.text}" font-size="24" font-weight="700"`)}${text(RX + 86, 136, 'TrustlessMike', `fill="${C.dim}" font-size="13"`)}</g>`,
+    `<g class="up" ${stagger(1)}>${text(RX, 162, 'Financial advisor turned builder.', `fill="${C.text}" font-size="13.5"`)}${text(RX, 181, 'Games, apps and money tools, built in public from Detroit.', `fill="${C.dim}" font-size="11.5"`)}</g>`,
+    `<g class="up" ${stagger(2)}><line x1="${RX}" y1="200" x2="806" y2="200" stroke="${C.line}" stroke-dasharray="2 4"/></g>`,
+    ...rows_.map(([k, v, col], i) => `<g class="up" ${stagger(3 + i)}>${text(RX, 226 + i * 24, k, `fill="${C.gold}" font-size="11"`)}${text(VX, 226 + i * 24, v, `fill="${col}" font-size="11.5"`)}</g>`),
+    `<g class="up" ${stagger(8)}><circle class="pulse" cx="${RX + 4}" cy="336" r="3.5" fill="${C.green}"/>${text(RX + 16, 340, 'shipping weekly · videos every week on YouTube and TikTok', `fill="${C.dim}" font-size="11"`)}</g>`,
   ].join('');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="A terminal window. Typing whoami opens a panel for Malik, TrustlessMike, with a spinning 3D gold coin drawn in ASCII and stamped M. Financial advisor turned builder of games, apps and money tools in Detroit. Building Open Champions. Shipped Jam, Stack, Kashout, Wickett, Art of Battle. Stack: Swift, TypeScript, Solana, three.js, Python.">
 <title>Malik · TrustlessMike</title>
 <defs>
 <radialGradient id="glow"><stop offset="0" stop-color="${C.gold}" stop-opacity=".16"/><stop offset=".6" stop-color="${C.gold}" stop-opacity=".04"/><stop offset="1" stop-color="${C.gold}" stop-opacity="0"/></radialGradient>
-<linearGradient id="win" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14161a"/><stop offset=".086" stop-color="${C.bg}"/></linearGradient>
+<linearGradient id="win" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14161a"/><stop offset=".078" stop-color="${C.bg}"/></linearGradient>
 <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${C.gold}" stop-opacity=".75"/><stop offset=".5" stop-color="${C.gold}" stop-opacity=".25"/><stop offset="1" stop-color="${C.gold}" stop-opacity=".6"/></linearGradient>
 </defs>
 <style>${BASE_CSS}
@@ -267,27 +267,27 @@ ${toneCss('g', GOLD)}${flip.css}${tipFlip.css}
 ${NO_MOTION('.cover,.cur1,.panel,.up,.cur,.glow,.pulse')}
 @media (prefers-reduced-motion:reduce){.cover{transform:translateX(${f1(cmd.length * 12 * CW)}px)}.cur1{opacity:0}}
 </style>
-<rect x="5.5" y=".5" width="835" height="395" rx="12" fill="url(#win)" stroke="${C.line}"/>
+<rect x="5.5" y=".5" width="835" height="435" rx="12" fill="url(#win)" stroke="${C.line}"/>
 <circle cx="25" cy="17" r="5.5" fill="#ff5f57"/><circle cx="43" cy="17" r="5.5" fill="#febc2e"/><circle cx="61" cy="17" r="5.5" fill="#28c840"/>
 ${text(423, 21, 'malik@detroit: ~/trustlessmike', `fill="${C.dim}" font-size="11" text-anchor="middle"`)}
 <line x1="6" y1="34.5" x2="840" y2="34.5" stroke="${C.line}"/>
 ${text(22, 58, '$', `fill="${C.green}" font-size="12"`)}${text(22 + 2 * 12 * CW, 58, cmd, `fill="${C.text}" font-size="12"`)}
 <g class="cover"><rect x="${f1(22 + 2 * 12 * CW)}" y="46" width="${f1(cmd.length * 12 * CW + 4)}" height="16" fill="${C.bg}"/><rect class="cur1" x="${f1(22 + 2 * 12 * CW)}" y="47" width="${f1(12 * CW)}" height="14" fill="${C.text}" opacity=".85"/></g>
 <g class="panel">
-<rect x="22.5" y="74.5" width="801" height="266" rx="10" fill="${C.panel}" stroke="url(#frame)"/>
+<rect x="22.5" y="74.5" width="801" height="306" rx="10" fill="${C.panel}" stroke="url(#frame)"/>
 <rect x="36" y="68" width="${f1(13 * 11 * CW + 12)}" height="14" fill="${C.bg}"/>
 ${text(42, 79, 'trustlessmike', `fill="${C.gold}" font-size="11" font-weight="700"`)}
-<circle class="glow" cx="${cx}" cy="${cy}" r="150" fill="url(#glow)"/>
+<circle class="glow" cx="${cx}" cy="${cy}" r="185" fill="url(#glow)"/>
 ${flip.body}
-<line x1="334.5" y1="96" x2="334.5" y2="320" stroke="${C.line}"/>
+<line x1="364.5" y1="96" x2="364.5" y2="360" stroke="${C.line}"/>
 ${right}
 </g>
 <g class="panel">
-<rect x="22.5" y="356.5" width="801" height="30" rx="7" fill="none" stroke="${C.line}"/>
-${text(34, 377, '>', `fill="${C.gold}" font-size="12" font-weight="700"`)}
-<rect class="cur" x="46" y="366" width="1.6" height="14" fill="${C.text}"/>
+<rect x="22.5" y="396.5" width="801" height="30" rx="7" fill="none" stroke="${C.line}"/>
+${text(34, 417, '>', `fill="${C.gold}" font-size="12" font-weight="700"`)}
+<rect class="cur" x="46" y="406" width="1.6" height="14" fill="${C.text}"/>
 ${tipFlip.body}
-${text(812, 377, 'Detroit, MI', `fill="${C.dim}" font-size="11" text-anchor="end"`)}
+${text(812, 417, 'Detroit, MI', `fill="${C.dim}" font-size="11" text-anchor="end"`)}
 </g>
 </svg>`;
 }
